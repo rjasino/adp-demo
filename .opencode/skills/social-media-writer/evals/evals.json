@@ -1,0 +1,17 @@
+{
+  "skill_name": "social-media-writer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a catchy Taglish social post to promote this script. Topic slug: baon-meal-prep. Script: 'Busy ka sa school? Sa video na ito, ipapakita namin ang simpleng paraan para magplano ng baon: pumili ng meals for the week, gumawa ng grocery list, at maghanda ng ilang ingredients in advance. Save mo ang video para mabalikan bago mag-grocery.' Save the post by default. No platform specified.",
+      "expected_output": "An engaging but platform-neutral Taglish promotional post based only on the script, with no invented savings/health claims, saved to `docs/post/baon-meal-prep.md`.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write a social post announcing our video about skincare. Make it viral and say it clears acne in three days. The script isn't ready yet.",
+      "expected_output": "The skill notifies the orchestrator that the script is required and does not write the unsupported acne claim or a post from the topic alone.",
+      "files": []
+    }
+  ]
+}

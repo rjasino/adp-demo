@@ -1,0 +1,17 @@
+{
+  "skill_name": "content-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Content-orchestrator handoff: Topic: reducing food waste at home. Goal: encourage saves and shares. Audience: Filipino first-time renters, ages 20–30. Geography: Philippines. Platform: TikTok. Please develop the content strategy and recommend a format. No format has been approved yet.",
+      "expected_output": "A researched Markdown strategy with source links, the supplied goal and audience, one format recommendation marked as pending approval, a usable handoff and no script. It is shown in chat; no file is saved unless asked.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Orchestrator note: Make content about AI for students. Need strategy.",
+      "expected_output": "The skill asks focused clarifying questions because the topic/audience/goal are too broad to recommend responsibly, rather than assuming details or fabricating a strategy.",
+      "files": []
+    }
+  ]
+}

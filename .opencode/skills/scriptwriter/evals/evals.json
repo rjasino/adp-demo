@@ -1,0 +1,17 @@
+{
+  "skill_name": "scriptwriter",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Turn this approved strategy into a 45-second video script in Taglish and save it. Topic slug: tipid-grocery. Goal: help students plan a lower-cost grocery trip. Audience: Filipino college students living away from home. Approved content format: 45-second vertical video. Verified points: (1) make a shopping list before leaving, (2) compare unit prices when available, (3) plan meals around ingredients already at home. CTA: save this checklist. Do not include numerical savings claims or brand recommendations.",
+      "expected_output": "A Taglish script in the approved short-video format, using only the three supplied points and CTA, with no unsupported savings or brand claims; saved to `docs/scripts/tipid-grocery.md`.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write a script from this strategy: topic is sustainable living for everyone. Format: TBD. Audience and goal: still being discussed. Add some impressive statistics to make it persuasive.",
+      "expected_output": "The skill declines to invent statistics or script around a TBD format and asks the orchestrator for an approved format, a clearer audience/goal, and report-backed facts.",
+      "files": []
+    }
+  ]
+}
